@@ -1,6 +1,6 @@
 # Economic Analysis: Education, Wealth & Brain Drain Study
 
-A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time.
+A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md))
 
 ---
 
@@ -138,10 +138,16 @@ Time-series data for Bangladesh (1975-2025):
 | 4 | Bangladesh: Growth vs Brain Drain | Time-series Correlation | r = 0.1650 — growth and emigration are independent |
 ---
 
-### Overall Conclusion
-- **The Education Dividend:** Education moderately predicts national income (r = 0.6526) — each extra year of schooling adds ~$5,410 to average salary, but structural factors still play a major role.
-- **The Billionaire Paradox:** We often perceive billionaires as the primary drivers or distorters of a nation's economic reality. Despite astronomical individual wealth, billionaires inflate the global average income by only 1.75% — far less distortion than public discourse suggests.
-- **The Talent Retention Gap:** Producing billionaires doesn't mean keeping them (r = −0.2050). Small nations lose all their top talent; large developed economies retain most.
-- **The Bangladesh Dilemma:** GDP grew 10×, yet student emigration grew 190× over 50 years (r = 0.1650). Economic growth alone does not reduce brain drain — As the country grew wealthier, student emigration grew even faster. Retaining talent requires more than GDP growth; it demands systemic improvements in opportunity and quality of life that can compete with what destination countries offer.
+## Overall Conclusion
+- ### The Education Dividend:
+ Education moderately predicts national income (r = 0.6526) — each extra year of schooling adds ~$5,410 to average salary, but structural factors still play a major role.
+- ### The Billionaire Paradox:
+ We often perceive billionaires as the primary drivers or distorters of a nation's economic reality. Despite astronomical individual wealth, billionaires inflate the global average income by only 1.75% — far less distortion than public discourse suggests.
+- ### The Talent Retention Gap: 
+Producing billionaires doesn't mean keeping them (r = −0.2050). Small nations lose all their top talent; large developed economies retain most.
+- ### The Bangladesh Dilemma:
+ GDP grew 10×, yet student emigration grew 190× over 50 years (r = 0.1650). Economic growth alone does not reduce brain drain — As the country grew wealthier, student emigration grew even faster. Retaining talent requires more than GDP growth; it demands systemic improvements in opportunity and quality of life that can compete with what destination countries offer.
+
+--- 
 
 For complete results, figures, methodology, and discussion → see [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md).
