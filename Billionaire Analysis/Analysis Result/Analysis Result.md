@@ -36,14 +36,14 @@ Salary = 5,410 × Education − 25,589
 
 ### Result
 
->  - **Do educated countries earn more?**
->  - **YES - education moderately predicts national income (r = 0.6526)** 
->  - **Conclusion**: Education strongly predicts income potential
+  - **Do educated countries earn more?**
+  - **YES - education moderately predicts national income (r = 0.6526)** 
+  - **Conclusion**: Education strongly predicts income potential
 
->  - **How much does each education year add to income?**
->  - **$5,410 per additional year of education**
->  - This is a significant economic return on education investment
->  - Regression equation: `Salary = 5,410 x Education - 25,589`
+  - **How much does each education year add to income?**
+  - **$5,410 per additional year of education**
+  - This is a significant economic return on education investment
+  - Regression equation: `Salary = 5,410 x Education - 25,589`
 
 ![Analysis 1: Education vs Salary](../Visualization/analysis1_education_vs_salary.png)
 
@@ -108,17 +108,17 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
 
 ### Result
 
->  - **Is the "average income" realistic?**
->  - **YES - VERY realistic**
->  - Average with billionaires: $61,079
->  - Average without billionaires: $60,026
->  - Difference: Only **1.75%**
->  - **Conclusion**: Unlike some developing nations, billionaires don't drastically inflate global averages
+  - **Is the "average income" realistic?**
+  - **YES - VERY realistic**
+  - Average with billionaires: $61,079
+  - Average without billionaires: $60,026
+  - Difference: Only **1.75%**
+  - **Conclusion**: Unlike some developing nations, billionaires don't drastically inflate global averages
 
->  - **How much do billionaires skew statistics?**
->  - **1.75% inflation effect**
->  - Most countries in the dataset have relatively modest billionaire populations
->  - Top billionaire concentrations (USA, China, Germany, India) exist but don't dominate weighted averages
+  - **How much do billionaires skew statistics?**
+  - **1.75% inflation effect**
+  - Most countries in the dataset have relatively modest billionaire populations
+  - Top billionaire concentrations (USA, China, Germany, India) exist but don't dominate weighted averages
 
 ---
 
@@ -146,19 +146,19 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
 
 ### Result
 
->  - **Do successful countries retain their talent?**
->  - **WEAK CORRELATION (r = -0.2050)**
->  - Billionaire density doesn't strongly predict emigration
->  - Neither a strong brain drain nor strong retention pattern
->  - **Conclusion**: Whether a country produces billionaires doesn't determine if they stay
+  - **Do successful countries retain their talent?**
+  - **WEAK CORRELATION (r = -0.2050)**
+  - Billionaire density doesn't strongly predict emigration
+  - Neither a strong brain drain nor strong retention pattern
+  - **Conclusion**: Whether a country produces billionaires doesn't determine if they stay
 
 ![Analysis 3: Brain Drain vs Billionaire Density](../Visualization/analysis3_brain_drain.png)
 
 ### Countries with 100% Brain Drain (All Billionaires Emigrated)
 
-> **Albania, Armenia, Azerbaijan, Barbados, Belarus, Belize, Bulgaria, Cuba, Georgia, Haiti *(and others)***
+ **Albania, Armenia, Azerbaijan, Barbados, Belarus, Belize, Bulgaria, Cuba, Georgia, Haiti *(and others)***
 
-> These are smaller nations that produce only 1–2 billionaires but lose every single one.
+ These are smaller nations that produce only 1–2 billionaires but lose every single one.
 
 ### Countries Retaining Talent
 
@@ -169,7 +169,7 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
 | UK | 177 | 10 | 6% |
 | Germany | 134 | 10 | 7% |
 
-> **Pattern**: Large, developed nations retain the vast majority of their talent; small nations lose all of theirs.
+ **Pattern**: Large, developed nations retain the vast majority of their talent; small nations lose all of theirs.
 
 ---
 
@@ -206,16 +206,16 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
 
 ### Result
 
->  - **Does Bangladesh's development reduce brain drain?**
->  - **NO - VERY WEAK correlation (r = 0.1650)**
->  - GDP per capita grew from $250 (1975) to $2,734 (2025) - **10.9x increase!**
->  - Student outflow grew from 300 (1975) to 57,000 (2025) - **190x increase!**
->  - Economic growth and emigration are essentially **independent**
->  - Economy grows rapidly (5.69% annually)
->  - Student emigration ALSO grows (doubled every 10 years since 1990s)
->  - Development hasn't changed the emigration pattern
->  - International opportunities and quality of life matter more than raw GDP growth alone
->  - **Conclusion**: Development alone DOES NOT reduce brain drain
+  - **Does Bangladesh's development reduce brain drain?**
+  - **NO - VERY WEAK correlation (r = 0.1650)**
+  - GDP per capita grew from $250 (1975) to $2,734 (2025) - **10.9x increase!**
+  - Student outflow grew from 300 (1975) to 57,000 (2025) - **190x increase!**
+  - Economic growth and emigration are essentially **independent**
+  - Economy grows rapidly (5.69% annually)
+  - Student emigration ALSO grows (doubled every 10 years since 1990s)
+  - Development hasn't changed the emigration pattern
+  - International opportunities and quality of life matter more than raw GDP growth alone
+  - **Conclusion**: Development alone DOES NOT reduce brain drain
 
 
 ![Analysis 4: Bangladesh Economic Growth vs Brain Drain](../Visualization/analysis4_bangladesh.png)
