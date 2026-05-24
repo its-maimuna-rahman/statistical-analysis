@@ -169,8 +169,43 @@ Time-series data for Bangladesh (1975-2025):
 
 [![Analysis 2: Billionaire Effect](Visualization/analysis2_billionaire_effect.png)](Visualization/analysis2_billionaire_effect.png)
 
+### Outlier Detection & Boxplot Analysis
+To identify extreme cases of wealth concentration, we employed the **3*IQR (Interquartile Range) Method**. This robust statistical technique identifies "extreme outliers" that lie far beyond the typical distribution.
+
+[![Analysis 2: Wealth Distribution Boxplot](Visualization/boxplot.png)](Visualization/boxplot.png)
+
+**Outlier Detection by 3IQR Method Results:**
+- **Q1 (25th percentile)**: $211.01
+- **Q2 (50th percentile/Median)**: $1,255
+- **Q3 (75th percentile)**: $8,033.82
+- **IQR (Q3 - Q1)**: $7,822.80
+- **Lower Bound (Q1 - 3*IQR)**: -$23,257.39
+- **Upper Bound (Q3 + 3*IQR)**: $31,502.22
+
+**Interpretation**: Any country with an average per capita income (including billionaires) above **$31,502.22** is considered an extreme statistical outlier, indicating significant wealth or extreme billionaire distortion.
+
 ---
 ## ANALYSIS 2 Results: Billionaire Wealth Distortion
+
+- **Outlier Countries (Extreme Wealth Concentration)**:
+  - **Monaco**: $5,136,111.11
+  - **Liechtenstein**: $3,523,076.92
+  - **Tuvalu**: $534,545.45
+  - **Seychelles**: $236,916.67
+  - **Iceland**: $168,979.06
+  - **Brunei**: $140,311.80
+  - **Luxembourg**: $132,465.54
+  - **Saint Vincent and Grenadines**: $128,846.15
+  - **Bahamas**: $97,201.02
+  - **Saint Lucia**: $78,500.00
+  - **Malta**: $70,581.61
+  - **Barbados**: $60,638.30
+  - **Tonga**: $59,345.79
+  - **Micronesia**: $34,385.96
+  - **Maldives**: $32,595.42
+  - **Montenegro**: $32,220.42
+  - **Qatar**: $32,203.70
+  - **Bahrain**: $32,176.87
 
 - **Is the "average income" realistic?**
   - **YES - VERY realistic**
@@ -301,6 +336,7 @@ Time-series data for Bangladesh (1975-2025):
 - The relationship between national prosperity and international mobility
 
 [![Analysis 4: Bangladesh Case Study](Visualization/analysis4_bangladesh.png)](Visualization/analysis4_bangladesh.png)
+[![Analysis 4: Wealth Growth vs Drain Intensity Scatter](Visualization/analysis4_scatter.png)](Visualization/analysis4_scatter.png)
 
 ---
 ## ANALYSIS 4 Results: Bangladesh - Economic Growth vs Brain Drain (1975-2025)
