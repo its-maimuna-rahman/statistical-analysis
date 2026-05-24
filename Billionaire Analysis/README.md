@@ -18,7 +18,7 @@ The analysis is structured in 4 parts, each revealing different aspects of econo
 
 ## Project Purpose and Contributors
 
-This project was made by a group of 5 people (group 5) for academic purpose.
+This project was made by a group of 5 people (group 5) for academic purposes.
 
 ```
 *** Group-5 Members ***
@@ -142,6 +142,6 @@ Time-series data for Bangladesh (1975-2025):
 - **The Education Dividend:** Education moderately predicts national income (r = 0.6526) — each extra year of schooling adds ~$5,410 to average salary, but structural factors still play a major role.
 - **The Billionaire Paradox:** We often perceive billionaires as the primary drivers or distorters of a nation's economic reality. Despite astronomical individual wealth, billionaires inflate the global average income by only 1.75% — far less distortion than public discourse suggests.
 - **The Talent Retention Gap:** Producing billionaires doesn't mean keeping them (r = −0.2050). Small nations lose all their top talent; large developed economies retain most.
-- **The Bangladesh Dilemma:** GDP grew 10×, yet student emigration grew 190× over 50 years (r = 0.1650). economic growth alone does not reduce brain drain — as the country grew wealthier, student emigration grew even faster. Retaining talent requires more than GDP growth; it demands systemic improvements in opportunity and quality of life that can compete with what destination countries offer.
+- **The Bangladesh Dilemma:** GDP grew 10×, yet student emigration grew 190× over 50 years (r = 0.1650). Economic growth alone does not reduce brain drain — As the country grew wealthier, student emigration grew even faster. Retaining talent requires more than GDP growth; it demands systemic improvements in opportunity and quality of life that can compete with what destination countries offer.
 
 For complete results, figures, methodology, and discussion → see [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md).
