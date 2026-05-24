@@ -509,16 +509,16 @@ int main() {
     CountryData countries[MAX_COUNTRIES];
     BangladeshData bd_data[MAX_YEARS];
     
-    int num_countries = loadCountryData("world.csv", countries);
-    int num_years = loadBangladeshData("bangladesh.csv", bd_data);
+    int num_countries = loadCountryData("CSV Files/world.csv", countries);
+    int num_years = loadBangladeshData("CSV Files/bangladesh.csv", bd_data);
     
     if (num_countries <= 0) {
-        printf("Error: Could not load country data from world.csv\n");
+        printf("Error: Could not load country data from CSV Files/world.csv\n");
         return 1;
     }
     
     if (num_years <= 0) {
-        printf("Error: Could not load Bangladesh data from banglaesh.csv\n");
+        printf("Error: Could not load Bangladesh data from CSV Files/bangladesh.csv\n");
         return 1;
     }
     
@@ -527,8 +527,8 @@ int main() {
     printf("                          ECONOMIC ANALYSIS: EDUCATION, WEALTH & BRAIN DRAIN STUDY                          \n");
     printf("============================================================================================================\n");
     printf("\nSuccessfully loaded:\n");
-    printf("  - %d countries from world.csv\n", num_countries);
-    printf("  - %d years of data from banglaesh.csv\n\n", num_years);
+    printf("  - %d countries from CSV Files/world.csv\n", num_countries);
+    printf("  - %d years of data from CSV Files/bangladesh.csv\n\n", num_years);
     
     // Perform all 4 analyses
     analysis1_PerCapitaIncome(countries, num_countries);
