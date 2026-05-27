@@ -7,6 +7,25 @@ This document presents the full statistical results, visualizations, and interpr
 
 ---
 
+## Data Sources
+The datasets used in this study were synthesized from several reputable international organizations:
+- **World Dataset (`world.csv`)**: 
+  - Covers **183 countries**.
+  - **Sources**: 
+      - 1. Forbes World's Billionaires List
+      - 2. World Bank/UN Population
+      - 3. World Bank Poverty & Inequality Platform
+      - 4. UNDP Human Development Reports
+      - 5. International Labour Organization (ILO).
+- **Bangladesh Dataset (`bangladesh.csv`)**: 
+  - Covers **51 years** of longitudinal data (1975–2025).
+  - **Sources**
+      - 1. World Data Bank
+      - 2. MacroTrends
+      - 3. Federal Reserve Economic Data (FRED).
+
+---
+
 ## Analysis 1: Per Capita Income Regression
 ### Education vs. Average Salary
 
@@ -220,6 +239,19 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
 
 ![Analysis 4: Bangladesh Economic Growth vs Brain Drain](../Visualization/analysis4_bangladesh.png)
 ![Analysis 4: Wealth Growth vs Drain Intensity Scatter](../Visualization/analysis4_scatter.png)
+
+---
+
+## Statistical Caveats & Limitations
+While this analysis provides significant insights, several statistical constraints must be considered:
+
+- **Bivariate Limitations**: Analysis 1 (Education vs. Salary), Analysis 3 (Billionaire Density), and Analysis 4 (Bangladesh Study) utilize bivariate models. In complex macroeconomic systems, variables like national income are influenced by a multitude of "omitted variables" including industrial infrastructure, political stability, geographical factors, and technological adoption. Attributing variance solely to one factor (like education) simplifies these multifaceted relationships.
+
+- **The Small-Country Effect**: In Analysis 2, the 3×IQR method perfectly flagged countries like Monaco, Tuvalu, Liechtenstein, and the Seychelles as extreme outliers. These are micro-states with very small populations where a single billionaire or specific tax laws can drastically skew per capita calculations compared to massive economies. In such cases, the mean income does not reflect the typical citizen's economic reality.
+
+- **Correlation vs. Causation**: High correlation coefficients (e.g., r = 0.6526 in Analysis 1) indicate strong associations but do not confirm direct causality. Endogeneity—where education drives wealth while national wealth simultaneously funds education systems—makes isolating a singular "direction" of impact statistically challenging.
+
+- **Data Consistency & Reporting Lags**: Compiling data from diverse sources like the World Bank, IMF, and ILO involves reconciling different reporting frequencies and methodologies. Some indicators may also reflect inherent reporting lags common in international economic statistics.
 
 ---
 
