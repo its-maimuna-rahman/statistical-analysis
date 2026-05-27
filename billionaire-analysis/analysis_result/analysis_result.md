@@ -7,7 +7,7 @@ This document presents the full statistical results, visualizations, and interpr
 
 ---
 
-## Data Sources
+## Data Sources & Sample Size
 The datasets used in this study were synthesized from several reputable international organizations:
 - **World Dataset (`world.csv`)**: 
   - Covers **183 countries**.
