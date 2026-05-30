@@ -204,7 +204,7 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
 | Metric | Formula | Meaning |
 |---|---|---|
 | Wealth Growth (X) | (GDP_current − GDP_previous) / GDP_previous | Annual % change in GDP per capita |
-| Drain Intensity (Y) | Students Abroad / Population | Proportion of population studying internationally |
+| Drain Intensity (Y) | Students Abroad / Population (millions) | Students per million people |
 
 **Correlation Interpretation Scale**:
 

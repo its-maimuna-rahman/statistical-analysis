@@ -135,7 +135,7 @@ Time-series data for Bangladesh (1975-2025):
 | 1 | Education vs Income | Linear Regression | r = 0.6526 — moderate positive correlation |
 | 2 | Billionaire Wealth Distortion | Univariate + IQR Outlier Detection | Only 1.75% inflation effect on national averages |
 | 3 | Brain Drain vs Billionaire Density | Bivariate Correlation | r = −0.2050 — weak correlation |
-| 4 | Bangladesh: Growth vs Brain Drain | Time-series Correlation | r = 0.1650 — growth and emigration are independent |
+| 4 | Bangladesh: Growth vs Brain Drain | Time-series Correlation (per million) | r = 0.1650 — growth and emigration are independent |
 ---
 
 ## Overall Conclusion
