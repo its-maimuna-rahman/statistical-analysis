@@ -92,7 +92,7 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
 | Statistic | Value |
 |---|---|
 | Q1 (25th percentile) | $211.01 |
-| Q2 / Median | $1,255.00 |
+| Q2 / Median | $1,255.41 |
 | Q3 (75th percentile) | $8,033.82 |
 | IQR (Q3 − Q1) | $7,822.80 |
 | Lower Bound (Q1 − 3×IQR) | −$23,257.39 |

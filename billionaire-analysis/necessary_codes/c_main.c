@@ -355,24 +355,28 @@ void analysis3_BrainDrainBillionaireDensity(CountryData countries[], int n) {
     printf("                         ANALYSIS 3: BRAIN DRAIN vs BILLIONAIRE DENSITY CORRELATION                         \n");
     printf("============================================================================================================\n");
     printf("\nBivariate Analysis: Billionaire Density (X) vs Brain Drain Rate (Y)\n\n");
+    printf("NOTE: Including only countries that have produced at least one billionaire.\n\n");
     
     double x_density[MAX_COUNTRIES];    // Billionaire density
     double y_drain_rate[MAX_COUNTRIES]; // Drain rate
+    int valid_count = 0;
     
     printf("%-20s %15s %15s %20s %20s\n",
            "Country", "Population(M)", "Born", "Billionaire Density", "Drain Rate");
     printf("-------------------------------------------------------------------------------------------------------------\n");
     
     for (int i = 0; i < n; i++) {
-        // Convert population to millions (assuming it's already in appropriate units)
-        double pop_millions = countries[i].population_with_billionaire / 1000000.0;
+        // Filter: only include countries that produce billionaires
+        if (countries[i].billionaire_born <= 0) continue;
+
+        double pop_millions = countries[i].population_with_billionaire;
         
-        x_density[i] = BillionaireDensity(
+        x_density[valid_count] = BillionaireDensity(
             countries[i].billionaire_born,
             pop_millions
         );
         
-        y_drain_rate[i] = DrainRate(
+        y_drain_rate[valid_count] = DrainRate(
             countries[i].billionaire_left,
             countries[i].billionaire_born
         );
@@ -381,12 +385,14 @@ void analysis3_BrainDrainBillionaireDensity(CountryData countries[], int n) {
                countries[i].country,
                pop_millions,
                countries[i].billionaire_born,
-               x_density[i],
-               y_drain_rate[i]);
+               x_density[valid_count],
+               y_drain_rate[valid_count]);
+        
+        valid_count++;
     }
     
-    // Calculate correlation
-    double correlation = PearsonR(x_density, y_drain_rate, n);
+    // Calculate correlation on valid subset
+    double correlation = PearsonR(x_density, y_drain_rate, valid_count);
     
     printf("\n");
     printf("Correlation Coefficient (r) between Billionaire Density and Drain Rate: %.4f\n\n", correlation);
@@ -509,16 +515,16 @@ int main() {
     CountryData countries[MAX_COUNTRIES];
     BangladeshData bd_data[MAX_YEARS];
     
-    int num_countries = loadCountryData("CSV Files/world.csv", countries);
-    int num_years = loadBangladeshData("CSV Files/bangladesh.csv", bd_data);
+    int num_countries = loadCountryData("csv_files/world.csv", countries);
+    int num_years = loadBangladeshData("csv_files/bangladesh.csv", bd_data);
     
     if (num_countries <= 0) {
-        printf("Error: Could not load country data from CSV Files/world.csv\n");
+        printf("Error: Could not load country data from csv_files/world.csv\n");
         return 1;
     }
     
     if (num_years <= 0) {
-        printf("Error: Could not load Bangladesh data from CSV Files/bangladesh.csv\n");
+        printf("Error: Could not load Bangladesh data from csv_files/bangladesh.csv\n");
         return 1;
     }
     
@@ -527,8 +533,8 @@ int main() {
     printf("                          ECONOMIC ANALYSIS: EDUCATION, WEALTH & BRAIN DRAIN STUDY                          \n");
     printf("============================================================================================================\n");
     printf("\nSuccessfully loaded:\n");
-    printf("  - %d countries from CSV Files/world.csv\n", num_countries);
-    printf("  - %d years of data from CSV Files/bangladesh.csv\n\n", num_years);
+    printf("  - %d countries from csv_files/world.csv\n", num_countries);
+    printf("  - %d years of data from csv_files/bangladesh.csv\n\n", num_years);
     
     // Perform all 4 analyses
     analysis1_PerCapitaIncome(countries, num_countries);
