@@ -1,6 +1,6 @@
 # Economic Analysis: Education, Wealth & Brain Drain Study
 
-A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md)) | Interactive Notebook : [`notebook/billionaire_analysis.ipynb`](notebook/billionaire_analysis.ipynb)
+A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md))
 
 ---
 
@@ -69,9 +69,6 @@ billionaire-analysis/
 ├── analysis_result/      # Detailed report
 │   ├── analysis_result.md
 │   └── billionaire_analysis_paper.pdf
-│
-├── notebook/             # ipynb file
-│   └── billionaire_analysis.ipynb
 │
 └── README.md             # This file
 ```
@@ -154,4 +151,4 @@ Producing billionaires doesn't mean keeping them (r = −0.2050). Small nations 
 
 --- 
 
-For complete results, figures, methodology, and discussion → see [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md) or the [`Interactive Notebook`](notebook/billionaire_analysis.ipynb).
+For complete results, figures, methodology, and discussion → see [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md).
