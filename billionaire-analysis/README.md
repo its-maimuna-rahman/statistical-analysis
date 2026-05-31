@@ -1,6 +1,6 @@
 # Economic Analysis: Education, Wealth & Brain Drain Study
 
-A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md))
+A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`analysis_result/analysis_result.md`](analysis_result/analysis_result.md))
 
 ---
 
@@ -151,4 +151,4 @@ Producing billionaires doesn't mean keeping them (r = −0.2050). Small nations 
 
 --- 
 
-For complete results, figures, methodology, and discussion → see [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md).
+For complete results, figures, methodology, and discussion → see [`analysis_result/analysis_result.md`](analysis_result/analysis_result.md).
