@@ -3,7 +3,7 @@
 **Project**: Economic Analysis — Education, Wealth & Brain Drain Study  
 **Course**: CSE130 | **Group**: 5 | **Institute**: ISRT, University of Dhaka
 
-This document presents the full statistical results, visualizations, and interpretations for all 4 analyses. For project setup and source code, see [`README.md`](README.md).
+This document presents the full statistical results, visualizations, and interpretations for all 4 analyses. For project setup and source code, see [`README.md`](../README.md). For an interactive version, check the [`Jupyter Notebook`](../notebook/billionaire_analysis.ipynb).
 
 ---
 

@@ -1,6 +1,6 @@
 # Economic Analysis: Education, Wealth & Brain Drain Study
 
-A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md))
+A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md) | Interactive Notebook : [`notebook/billionaire_analysis.ipynb`](notebook/billionaire_analysis.ipynb))
 
 ---
 
@@ -45,20 +45,20 @@ University  :   University of Dhaka
 ## Project Structure
 
 ```
-Billionaire-Analysis/
+billionaire-analysis/
 │
-├── Necessary Codes/      # C source code and headers
+├── necessary_codes/      # C source code and headers
 │   ├── c_main.c
 │   ├── econ_func.c
 │   ├── economics.h
 │   ├── stat_func.c
 │   └── statistics.h
 │
-├── CSV Files/            # Raw datasets
+├── csv_files/            # Raw datasets
 │   ├── world.csv
 │   └── bangladesh.csv
 │
-├── Visualization/        # Output graphs (PNG)
+├── visualizations/        # Output graphs (PNG)
 │   ├── analysis1_education_vs_salary.png
 │   ├── analysis2_billionaire_effect.png
 │   ├── analysis2_boxplot.png
@@ -66,8 +66,12 @@ Billionaire-Analysis/
 │   ├── analysis4_bangladesh.png
 │   └── analysis4_scatter.png
 │
-├── Analysis Result/      # Detailed report
-│   └── Analysis Result.md
+├── analysis_result/      # Detailed report
+│   ├── analysis_result.md
+│   └── billionaire_analysis_paper.pdf
+│
+├── notebook/             # ipynb file
+│   └── billionaire_analysis.ipynb
 │
 └── README.md             # This file
 ```
@@ -76,7 +80,7 @@ Billionaire-Analysis/
 
 ### Compilation
 ```bash
-gcc -o analysis "Necessary Codes/c_main.c" "Necessary Codes/econ_func.c" "Necessary Codes/stat_func.c" -lm
+gcc -o analysis necessary_codes/c_main.c necessary_codes/econ_func.c necessary_codes/stat_func.c -lm
 ```
 (The `-lm` flag links the math library for `sqrt()`, `pow()`, etc.)
 
@@ -150,4 +154,4 @@ Producing billionaires doesn't mean keeping them (r = −0.2050). Small nations 
 
 --- 
 
-For complete results, figures, methodology, and discussion → see [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md).
+For complete results, figures, methodology, and discussion → see [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md) or the [`Interactive Notebook`](notebook/billionaire_analysis.ipynb).
