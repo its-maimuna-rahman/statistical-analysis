@@ -1,6 +1,6 @@
 # Economic Analysis: Education, Wealth & Brain Drain Study
 
-A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md) | Interactive Notebook : [`notebook/billionaire_analysis.ipynb`](notebook/billionaire_analysis.ipynb))
+A comprehensive C-based analysis tool that examines the relationships between education, economic development, billionaire wealth distribution, and international brain drain across countries and over time. (Full analysis report : [`Analysis Result/Analysis Result.md`](Analysis%20Result/Analysis%20Result.md)) | Interactive Notebook : [`notebook/billionaire_analysis.ipynb`](notebook/billionaire_analysis.ipynb)
 
 ---
 
