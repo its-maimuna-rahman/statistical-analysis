@@ -64,7 +64,7 @@ Salary = 5,410 × Education − 25,589
   - This is a significant economic return on education investment
   - Regression equation: `Salary = 5,410 x Education - 25,589`
 
-![Analysis 1: Education vs Salary](../Visualization/analysis1_education_vs_salary.png)
+![Analysis 1: Education vs Salary](../visualizations/analysis1_education_vs_salary.png)
 
 ---
 
@@ -83,7 +83,7 @@ Salary = 5,410 × Education − 25,589
 | Average per capita income (without billionaires) | $60,026 |
 | Difference (Billionaire Inflation Effect) | **1.75%** |
 
-![Analysis 2: Billionaire Effect](../Visualization/analysis2_billionaire_effect.png)
+![Analysis 2: Billionaire Effect](../visualizations/analysis2_billionaire_effect.png)
 
 ### Outlier Detection — 3×IQR Method
 
@@ -100,7 +100,7 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
 
 > Any country with average per capita income (including billionaires) **above $31,502.22** is an extreme statistical outlier — indicating massive wealth concentration or extreme billionaire distortion.
 
-![Analysis 2: Wealth Distribution Boxplot](../Visualization/analysis2_boxplot.png)
+![Analysis 2: Wealth Distribution Boxplot](../visualizations/analysis2_boxplot.png)
 
 ### Outlier Countries (Extreme Wealth Concentration)
 
@@ -171,7 +171,7 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
   - Neither a strong brain drain nor strong retention pattern
   - **Conclusion**: Whether a country produces billionaires doesn't determine if they stay
 
-![Analysis 3: Brain Drain vs Billionaire Density](../Visualization/analysis3_brain_drain.png)
+![Analysis 3: Brain Drain vs Billionaire Density](../visualizations/analysis3_brain_drain.png)
 
 ### Countries with 100% Brain Drain (All Billionaires Emigrated)
 
@@ -237,8 +237,8 @@ The 3×IQR method identifies *extreme* outliers in per capita income distributio
   - **Conclusion**: Development alone DOES NOT reduce brain drain
 
 
-![Analysis 4: Bangladesh Economic Growth vs Brain Drain](../Visualization/analysis4_bangladesh.png)
-![Analysis 4: Wealth Growth vs Drain Intensity Scatter](../Visualization/analysis4_scatter.png)
+![Analysis 4: Bangladesh Economic Growth vs Brain Drain](../visualizations/analysis4_bangladesh.png)
+![Analysis 4: Wealth Growth vs Drain Intensity Scatter](../visualizations/analysis4_scatter.png)
 
 ---
 
